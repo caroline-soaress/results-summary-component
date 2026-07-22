@@ -16,7 +16,7 @@
   --pale-blue: hsl(221, 100%, 96%);
   --light-lavender: hsl(241, 100%, 89%);
   --dark-gray-blue: hsl(224, 30%, 27%);
-  --outof100-grey-blue: rgba(48, 59, 90, 0.5);
+  --outof100-grey-blue: rgba(48, 59, 90, 0.548);
 
   /* Typography */
   --font-family: "Hanken Grotesk", sans-serif;
@@ -86,6 +86,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 20px;
 }
 
 .category {
@@ -119,7 +120,7 @@ li {
 }
 
 .summary-score {
-  color: rgba(0, 0, 0, 0.795);
+  color: rgba(0, 0, 0, 0.808);
   font-weight: var(--font-weight-bold);
 }
 
