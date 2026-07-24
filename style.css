@@ -75,7 +75,6 @@ body {
 
 .summary {
   flex: 1;
-  text-align: center;
   padding: 40px;
 }
 
@@ -83,14 +82,14 @@ ul {
   display: flex;
   list-style: none;
   flex-direction: column;
-  gap: 16px;
+  gap: 25px;
 }
 
 li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 13px 10px;
 }
 
 .category {
@@ -143,8 +142,9 @@ span.total-score {
     hsla(256, 72%, 46%, 0.7),
     hsla(241, 72%, 46%, 0)
   );
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
+  align-items: center;
 }
 
 .continue {
@@ -154,8 +154,9 @@ span.total-score {
   border-radius: 30px;
   width: 100%;
   padding: 16px;
-  margin-top: 20px;
+  margin-top: 25px;
   cursor: pointer;
+  font-weight: var(--font-weight-bold);
 }
 
 .continue:hover {
@@ -164,4 +165,42 @@ span.total-score {
 
 .continue:focus {
   outline: 2px solid var(--light-slate-blue);
+}
+
+.result h2 {
+  color: var(--pale-blue);
+  opacity: 75%;
+  margin-bottom: 20px;
+}
+
+.result p {
+  color: var(--pale-blue);
+  opacity: 75%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.result h3 {
+  color: var(--white);
+  font-size: 26px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.score {
+  color: var(--white);
+  font-size: 4.1rem;
+  font-weight: bold;
+}
+
+.total {
+  color: var(--white);
+  opacity: 50%;
+}
+
+.summary h2 {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  opacity: 70%;
 }
